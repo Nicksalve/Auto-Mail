@@ -1,3 +1,4 @@
+#type in terminal 'pip install secure-smtplib'
 import smtplib
 server = smtplib.SMTP('smtp.gmail.com',587)
 server.starttls()
